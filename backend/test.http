@@ -1,0 +1,14 @@
+POST http://localhost:5000/api/orders
+Content-Type: application/json
+
+{
+  "user_id": "654c60f23b7a8a001a1b1b1b",
+  "order_type": "market",
+  "price": 100.50,
+  "isAsk": "long",
+  "orderIndex": 12345,
+  "amount": 5000,
+  "marketIndex": "BTC/USD",
+  "quantity": 50,
+  "leverage": 5
+}
